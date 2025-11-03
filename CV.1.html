@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV Interactif - Léa ROA--JAILLET</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+  <div class="top-bar">
+    <button id="themeToggle"><i class="fas fa-moon"></i> Mode Sombre</button>
+    <button id="downloadBtn"><i class="fas fa-download"></i> Télécharger le CV</button>
+  </div>
+
+  <div id="cv" class="cv-container">
+    <aside class="left-column">
+      <div class="profile">
+        <img src="https://via.placeholder.com/150" alt="Photo de profil">
+        <h1>Léa Roa--Jaillet </h1>
+        <h2>Étudiante</h2>
+      </div>
+
+      <div class="contact">
+        <h3>CONTACT</h3>
+        <ul>
+          <li><i class="fas fa-envelope"></i> learj@gmail.com</li>
+          <li><i class="fas fa-phone"></i> +33 7 90 36 78 50 </li>
+          <li><i class="fas fa-map-marker-alt"></i> Amiens, France</li>
+          
+        </ul>
+      </div>
+
+      <div class="skills">
+        <h3>COMPÉTENCES</h3>
+        <ul>
+          <li><span>suite Adobe</span><div class="bar"><div class="progress" style="width: 70%;"></div></div></li>
+        </ul>
+      </div>
+    </aside>
+
+    <main class="right-column">
+      <section class="collapsible">
+        <h3>PROFIL</h3>
+        <div class="content">
+          <p>Actuellement étudiante en 2ème année à l'École supérieure d'art et design d'Amiens</p>
+        </div>
+      </section>
+
+      <section class="collapsible">
+        <h3>EXPÉRIENCES PROFESSIONNELLES</h3>
+        <div class="content">
+          <div class="item">
+            <h4> ÉTUDE</h4>
+            <span>2020 - 2023</span>
+            <p>Lycée St Pierre Fourrier</p>
+            <span>2023 - 2024</span>
+            <p>Prép'art</p>
+           <span>2024 - 2025</span>
+           <p>1er année à l'ESAD</p>
+          </div>
+          <div class="item">
+            <h4> JOB</h4>
+            <span> 2024/2025</span>
+            <p> Barman,serveuse pendant l'été </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="collapsible">
+        <h3>FORMATION</h3>
+        <div class="content">
+          <div class="item">
+            <h4>License Design Graphique — École Supérieure d'Art et Design d'Amiens</h4>
+            <span>2024 - Présent</span>
+            <p>Étude pour l'obtention du diplôme de DNA (diplôme national d’art) option Design, mention Design graphique</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="collapsible">
+        <h3>CENTRES D'INTÉRÊTS</h3>
+        <div class="content">
+          <p>Design | Dessin | Musique | Numérique</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
